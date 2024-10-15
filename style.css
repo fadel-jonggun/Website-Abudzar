@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+.container-navigasi {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-nav {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  background-color: white;
+  margin-left: 88px;
+  align-items: center;
+}
+.logo-nav p {
+  margin-left: 10px;
+}
+.list-nav {
+  display: flex;
+  list-style: none;
+  background-color: white;
+  margin-right: 88px;
+  align-items: center;
+}
+.list-nav li {
+  margin: 5px;
+  font-family: "Inter", sans-serif;
+}
+.list-nav button {
+  color: white;
+  background-color: #faa613;
+  border: none;
+  font-family: "Inter", sans-serif;
+  padding: 20px;
+  border-radius: 5px;
+}
+.list-nav li:hover{
+    color: #faa613;
+    background-color: #4d4d4d;
+    padding: 6px 6px 6px 6px;
+    border-radius: 5px;
+}
+#content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f7fa;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.text-1 {
+  margin-left: 88px;
+}
+.text-1 h1 {
+  color: #4d4d4d;
+  font-size: 60px;
+  font-weight: 600px;
+  font-family: "Inter", sans-serif;
+  margin-bottom: -35px;
+}
+.text-1 h2 {
+  color: #faa613;
+  font-size: 60px;
+  font-weight: 600px;
+  font-family: "Inter", sans-serif;
+}
+.text-1 p {
+  color: #717171;
+  font-family: "Inter", sans-serif;
+  font-weight: 400px;
+  margin-top: -25px;
+}
+.text-1 button {
+  color: white;
+  background-color: #faa613;
+  border: none;
+  font-family: "Inter", sans-serif;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 14px;
+}
+.img {
+  margin-right: 88px;
+}
+.text-2 h1 {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-weight: 600px;
+  font-size: 35px;
+  color: #4d4d4d;
+}
+.text-2 p {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #4d4d4d;
+  margin-top: -16px;
+}
+.img-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 88px;
+  margin-right: 88px;
+  padding-top: 50px;
+}
+.text-3 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.text-3 h1 {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-weight: 600px;
+  font-size: 35px;
+  color: #4d4d4d;
+  line-height: 8px;
+}
+.text-3 p {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #4d4d4d;
+  margin-top: 16px;
+}
+.isi-content-3 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 88px;
+  margin-right: 88px;
+}
+.satu {
+  text-align: center;
+}
+.anak-1 {
+  line-height: 1px;
+  font-family: "Inter", sans-serif;
+  color: #4d4d4d;
+  font-weight: 700px;
+}
+.kana-1 {
+  font-family: "Inter", sans-serif;
+  color: #4d4d4d;
+  line-height: 1px;
+  margin-top: 35px;
+}
+.dua {
+  text-align: center;
+}
+.anak-2 {
+  line-height: 1px;
+  font-family: "Inter", sans-serif;
+  color: #4d4d4d;
+  font-weight: 700px;
+}
+.kana-2 {
+  font-family: "Inter", sans-serif;
+  color: #4d4d4d;
+  line-height: 1px;
+  margin-top: 35px;
+}
+.tiga {
+  text-align: center;
+}
+.anak-3 {
+  line-height: 1px;
+  font-family: "Inter", sans-serif;
+  color: #4d4d4d;
+  font-weight: 700px;
+}
+.kana-3 {
+  font-family: "Inter", sans-serif;
+  color: #4d4d4d;
+  line-height: 1px;
+  margin-top: 35px;
+}
+#content-4 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 88px;
+  margin-right: 88px;
+  margin-top: 100px;
+}
+.isi-content-4 {
+  justify-content: space-between;
+}
+.text-h1-c4 {
+  font-family: "Inter", sans-serif;
+  line-height: 7px;
+  font-size: 25px;
+  color: #4d4d4d;
+}
+.paragraf-c4 {
+  line-height: 3px;
+  font-family: "Inter", sans-serif;
+}
+.button-c4 {
+  color: white;
+  background-color: #faa613;
+  border: none;
+  font-family: "Inter", sans-serif;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 14px;
+}
+
+.icon-menu {
+  display: none;
+}
+@media only screen and (max-width: 745px) {
+  .icon-menu {
+    display: block;
+  }
+  .list-nav {
+    display: none;
+  }
+}
+#content-5 {
+  margin: 150px 88px 150px 88px;
+}
+.kiri {
+  line-height: 6px;
+}
+.ms {
+  color: #717171;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+}
+.md {
+  color: #faa613;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+}
+.kiri p {
+  color: #717171;
+  font-family: "Inter", sans-serif;
+}
