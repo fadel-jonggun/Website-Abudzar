@@ -1,0 +1,48 @@
+#content-5 {
+  margin: 150px 88px 150px 88px;
+  display: flex;
+  justify-content: space-between;
+}
+.kiri {
+  line-height: 6px;
+}
+.ms {
+  color: #717171;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+}
+.md {
+  color: #faa613;
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+}
+.kiri p {
+  color: #717171;
+  font-family: "Inter", sans-serif;
+}
+.santri{
+    display: flex;
+    align-items: center;
+}
+.teks-santri{
+    line-height: 3px;
+    padding-left: 20px;
+    font-size: larger;
+    font-family: "Inter", sans-serif;
+}
+.teks-santri p{
+    color: #717171;
+}
+.komentar{
+    display: flex;
+    align-items: center;
+}
+.teks-komentar{
+    line-height: 3px;
+    padding-left: 20px;
+    font-size: larger;
+    font-family: "Inter", sans-serif;
+}
+.teks-komentar p{
+    color: #717171;
+}

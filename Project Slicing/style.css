@@ -28,6 +28,7 @@
 .list-nav li {
   margin: 5px;
   font-family: "Inter", sans-serif;
+  position: relative;
 }
 .list-nav button {
   color: white;
@@ -36,12 +37,6 @@
   font-family: "Inter", sans-serif;
   padding: 20px;
   border-radius: 5px;
-}
-.list-nav li:hover{
-    color: #faa613;
-    background-color: #4d4d4d;
-    padding: 6px 6px 6px 6px;
-    border-radius: 5px;
 }
 #content {
   display: flex;
@@ -234,4 +229,24 @@
 .kiri p {
   color: #717171;
   font-family: "Inter", sans-serif;
+}
+.dropdown-menu{
+  position: absolute;
+  background-color: #faa613;
+  list-style: none;
+  top: 100%;
+  padding-left: 0PX;
+  display: none;
+}
+.dropdown-menu a{
+  width: 150px;
+  background-color: burlywood;
+  display: block ;
+  text-align: center;
+
+  text-decoration: none;
+  padding: 12px 0px;
+}
+.dropdown:hover .dropdown-menu{
+  display: block;
 }
