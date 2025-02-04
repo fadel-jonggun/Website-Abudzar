@@ -230,23 +230,112 @@
   color: #717171;
   font-family: "Inter", sans-serif;
 }
-.dropdown-menu{
+.dropdown-menu {
   position: absolute;
   background-color: #faa613;
   list-style: none;
   top: 100%;
-  padding-left: 0PX;
+  padding-left: 0px;
   display: none;
 }
-.dropdown-menu a{
+.dropdown-menu a {
   width: 150px;
   background-color: burlywood;
-  display: block ;
+  display: block;
   text-align: center;
 
   text-decoration: none;
   padding: 12px 0px;
 }
-.dropdown:hover .dropdown-menu{
+.dropdown:hover .dropdown-menu {
   display: block;
+}
+.santri {
+  display: flex;
+  align-items: center;
+}
+.teks-santri {
+  line-height: 3px;
+  padding-left: 20px;
+  font-size: larger;
+  font-family: "Inter", sans-serif;
+}
+.teks-santri p {
+  color: #717171;
+}
+.komentar {
+  display: flex;
+  align-items: center;
+}
+.teks-komentar {
+  line-height: 3px;
+  padding-left: 20px;
+  font-size: larger;
+  font-family: "Inter", sans-serif;
+}
+.teks-komentar p {
+  color: #717171;
+}
+.kanan {
+  display: flex;
+}
+.komunitas {
+  display: flex;
+  align-items: center;
+}
+.teks-komunitas {
+  line-height: 3px;
+  padding-left: 20px;
+  font-size: larger;
+  font-family: "Inter", sans-serif;
+}
+.teks-komunitas p {
+  color: #717171;
+}
+.pembayaran {
+  display: flex;
+  align-items: center;
+}
+.teks-pembayaran {
+  line-height: 3px;
+  padding-left: 20px;
+  font-size: larger;
+  font-family: "Inter", sans-serif;
+}
+.teks-pembayaran p {
+  color: #717171;
+}
+.kanan-1 {
+  margin-right: 40px;
+}
+#content-5 {
+  margin: 150px 88px 150px 88px;
+  display: flex;
+  justify-content: space-between;
+}
+#content-6 {
+  margin: 0px 88px 0px 88px;
+  display: flex;
+  justify-content: space-between;
+}
+.right h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+}
+.lorem{
+  font-family: "Inter", sans-serif;
+  line-height: 5px;
+  margin-top: -10px;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.right button{
+  color: white;
+  background-color: #faa613;
+  border: none;
+  font-family: "Inter", sans-serif;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 14px;
+  font-size: 20px;
 }

@@ -46,3 +46,35 @@
 .teks-komentar p{
     color: #717171;
 }
+.kanan{
+  display: flex;
+}
+.komunitas{
+  display: flex;
+  align-items: center;
+}
+.teks-komunitas{
+  line-height: 3px;
+  padding-left: 20px;
+  font-size: larger;
+  font-family: "Inter", sans-serif;
+}
+.teks-komunitas p{
+  color: #717171;
+}
+.pembayaran{
+  display: flex;
+  align-items: center;
+}
+.teks-pembayaran{
+  line-height: 3px;
+  padding-left: 20px;
+  font-size: larger;
+  font-family: "Inter", sans-serif;
+}
+.teks-pembayaran p{
+  color: #717171;
+}
+.kanan-1{
+  margin-right: 40px;
+}
